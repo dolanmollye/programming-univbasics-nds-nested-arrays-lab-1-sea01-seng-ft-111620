@@ -25,8 +25,8 @@ end
 
 def sorted_matrix
  produce = [
-   CONVENTIONAL_PRODUCE,
-   ORGANIC_PRODUCE,
+   CONVENTIONAL_PRODUCE.sort,
+   ORGANIC_PRODUCE.sort,
    ]
    
 end
