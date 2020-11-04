@@ -4,7 +4,7 @@ ORGANIC_PRODUCE = [
   "Strawberries",
   "Potatoes",
   "Grapes",
-  "Potatoes",
+  "Avocadoes",
   "Asparagus"
 ]
 
@@ -36,7 +36,7 @@ produce = [
   CONVENTIONAL_PRODUCE,
   ORGANIC_PRODUCE,
 ]
-  produce[1][1]
+  produce[1][3]
 end
 
 def matrix_update(matrix, row, column, new_value)
