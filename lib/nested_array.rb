@@ -33,8 +33,8 @@ end
 
 def matrix_lookup(matrix, row, column)
   produce = [
-  CONVENTIONAL_PRODUCE.sort,
-  ORGANIC_PRODUCE.sort,
+  CONVENTIONAL_PRODUCE,
+  ORGANIC_PRODUCE,
 ]
 produce[0][1]
 produce [1][1]
