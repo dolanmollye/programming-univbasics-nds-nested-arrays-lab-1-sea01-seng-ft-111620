@@ -32,7 +32,11 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-[produce][ORGANIC_PRODUCE][1]
+produce = [
+  CONVENTIONAL_PRODUCE,
+  ORGANIC_PRODUCE,
+]
+  [produce][ORGANIC_PRODUCE][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
