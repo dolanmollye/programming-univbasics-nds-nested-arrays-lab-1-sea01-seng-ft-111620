@@ -52,7 +52,7 @@ produce = [
   conventional_produce,
   organic_produce,]
   
-  return produce [1][1]
+  return produce [1][3]
 end
 
 def matrix_update(matrix, row, column, new_value)
