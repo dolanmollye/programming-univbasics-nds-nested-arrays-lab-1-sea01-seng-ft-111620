@@ -29,7 +29,6 @@ def sorted_matrix
    ORGANIC_PRODUCE,
    ]
    
-   
 end
 
 def matrix_lookup(matrix, row, column)
