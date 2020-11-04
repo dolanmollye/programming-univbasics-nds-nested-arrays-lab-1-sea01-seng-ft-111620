@@ -24,10 +24,11 @@ def assembled_matrix
 end
 
 def sorted_matrix
- produce.sort = [
+ produce = [
    CONVENTIONAL_PRODUCE,
    ORGANIC_PRODUCE,
    ]
+   
    
 end
 
